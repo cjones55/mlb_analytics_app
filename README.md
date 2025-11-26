@@ -37,7 +37,7 @@ ________________________________________________________________________________
 
 Usage
 Run the launcher:
-python mlb_analytics_app.py
+python mlb_analytics_app_v1.1.py
 
 MLB Analytics App
 1. Team projected evaluation via WAR
