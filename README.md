@@ -1,5 +1,5 @@
 # mlb_analytics_app
-put all files in folder called "mlbapp" on desktop
+download zip file
 A command‑line application for running MLB team analytics, standings projections, free agent evaluations, and R² analysis with visualizations based on data from 2015-present day.
 
 _____________________________________________________________________________________
