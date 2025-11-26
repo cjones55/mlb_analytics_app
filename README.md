@@ -1,5 +1,5 @@
 # mlb_analytics_app
-download zip file!!!!!!
+download zip file!!!!!! ALL CONTENTS INSIDE!!!!!
 
 _____________________________________________________________________________________
 
