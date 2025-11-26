@@ -33,10 +33,10 @@ Open a terminal and navigate to the folder:
 
 cd ~/Desktop/mlbapp
 
-_____________________________________________________________________________________
+Now we run the launcher...
 
-Usage
-Run the launcher:
+type in: 
+
 python mlb_analytics_app_v1.1.py
 
 MLB Analytics App
