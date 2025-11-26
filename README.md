@@ -1,5 +1,8 @@
 # mlb_analytics_app
-download zip file
+download zip file!!!!!!
+
+_____________________________________________________________________________________
+
 A command‑line application for running MLB team analytics, standings projections, free agent evaluations, and R² analysis with visualizations based on data from 2015-present day.
 
 _____________________________________________________________________________________
