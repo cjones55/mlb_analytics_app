@@ -1,7 +1,4 @@
-MLB Analytics App by Chris Jones v1.2
-
-
-JUST DOWNLOAD ZIP!!! HAS ALL CONTENT!!!
+MLB Analytics App by Chris Jones v1.5
 
 
 A command‑line application for running MLB team analytics, standings projections, free agent evaluations, and R² analysis with visualizations based on data from 2015-present day.
@@ -9,54 +6,54 @@ A command‑line application for running MLB team analytics, standings projectio
 _____________________________________________________________________________________
 
 📂 Folder Contents
-- `mlb_analytics_app.py` → The launcher script (menu interface).
-- `standings_projections.py` → Runs full standings projections based on WAR and finance data.
-- `single_team_simulator.py` → Evaluates a single team’s projected performance via WAR.
-- `free_agent_evaluator.py` → Adds a free agent to team projections.
-- `r2_analysis.py` → Runs R² analysis with visualizations.
-- `projected_mlb_team_data.csv` → Projected WAR data for all teams.
-- `mlb_finance_data_1.csv` → Historical finance/performance dataset.
-- `2026_freeagents.csv` → Free agent list for 2026.
-- Output files (e.g. `jonesy_mlb_projected_standings.csv`) will be generated here.
 
+mlb_analytics_app.py : Launcher script with interactive menu
+single_team_simulator.py : Evaluates team WAR vs payroll
+standings_projections.py : Runs full standings projections
+free_agent_evaluator.py : Adds free agent to team projections
+r2_analysis.py : Runs R² analysis with visualizations
+trade_simulator.py : Trade simulator module
+stuff_plus_calculator.py : Manual Stuff+ calculator
+current_player_stuff_plus.py : Statcast-based Stuff+ calculator for MLB players
+team_projected_26man.py : 26-man roster builder + FA recommendations
+projected_mlb_team_data.csv : Projected WAR data for all teams
+mlb_finance_data_1.csv : Historical finance/performance dataset
+2026_freeagents.csv : Free agent list for 2026
+README.rtf : App overview and instructions
+Output files (e.g. jonesy_mlb_projected_standings.csv)
 _____________________________________________________________________________________
 
 ⚙️ Requirements
-- Python 3.9+ (tested with Python 3.11).
-- Required packages:
-  ```bash
-python3 -m pip install (install all packed below after having installed python 3 use function listed and then put the package after. Do same for all.)
 
-pandas
-numpy
-scikit-learn
-matplotlib
-scipy
-seaborn
-subprocess
+	•	Python 3.9+ (tested with Python 3.11)
+	•	Required packages: python3 -m pip install pandas numpy scikit-learn matplotlib scipy seaborn pybaseball (copy and paste into terminal
+	•	Python download: https://www.python.org/downloads/
 
 https://www.python.org/downloads/ <— Python download link
 
 — IMPORTANT
-Place the mlbapp folder on your Desktop.
-	•	Path should be: ~/Desktop/mlbapp
-Open a terminal and navigate to the folder:
 
-type in: cd ~/Desktop/mlbapp (copy and paste)
+1. Place the mlbapp folder on your Desktop Path should be: ~/Desktop/mlbapp
+2. Open a terminal and navigate to the folder: cd ~/Desktop/mlbapp
+3. Run the launcher: python3 mlb_analytics_app_v1.5.py  
+_____________________________________________________________________________________
 
-
+Usage
 Run the launcher:
-python3 mlb_analytics_app_v1.2.py (copy and paste)
+python3 mlb_analytics_app_v1.5.py
 
-Outcome should be: 
+Menu Options MLB Analytics App by Chris Jones v1.5
+	1	Team projected evaluation via WAR + cost of WAR
+	2	Run full standings projections
+	3	Add free agent to team projections
+	4	Run Trade Simulator
+	5	Run Stuff+ Calculator (manual inputs)
+	6	Run Current MLB Player Stuff+ Calculator
+	7	Run Team Projected 26-Man Roster + FA Recommendations
+	8	Run R² analysis with visualizations
 
-MLB Analytics App
-1. Team projected evaluation via WAR + cost of WAR
-2. Run full standings projections
-3. Add free agent to team projections
-4. Run R² analysis with visualizations
-5. Run Trade Simulator
-6. Run Stuff+ Calculator
-7. Run Team Projected 26-Man Roster + FA Recommendations
-Select option (1, 2, 3, 4, 5, 6 or 7):
+
+_____________________________________________________________________________________
+
+FUTURE UPDATES COMING!!!
 
